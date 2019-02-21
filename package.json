@@ -1,0 +1,35 @@
+{
+  "name": "myname",
+  "version": "1.0.0",
+  "description": "Symfony 3 Json Api",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encore-dev-server": "./node_modules/.bin/encore dev-server",
+    "encore-dev": "./node_modules/.bin/encore dev",
+    "encore-watch": "./node_modules/.bin/encore dev --watch",
+    "encore-prod": "./node_modules/.bin/encore production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgrandsire/repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgrandsire/repository/issues"
+  },
+  "homepage": "https://github.com/tgrandsire/repository#readme",
+  "dependencies": {
+    "foundation-sites": "^6.4.4-rc1",
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.20.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  }
+}
